@@ -55,7 +55,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     validateInput(fuelLevel) === "Not a Number" ||
     validateInput(cargoLevel) === "Not a Number"
   ) {
-    alert(`Make sure that fuelLevel and cargoLevel are numbers!`);
+    alert(`Make sure that Fuel level and Cargo Mass are numbers!`);
   }
   else {
     pilotStatus.innerHTML = `Pilot ${pilot} is ready for launch`;
