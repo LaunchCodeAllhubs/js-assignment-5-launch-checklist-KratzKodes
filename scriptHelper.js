@@ -35,7 +35,20 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     validateInput(fuelLevel) === `Empty`||
     validateInput(cargoLevel) === `Empty`
 
-    ){alert(`Empty`)}
+    ){
+        alert(`Ensure each field has filled`)
+    }else if(
+        validateInput(pilot) === `Is a number`||
+        validateInput(copilot) === `Is a number`
+    ){
+        alert(`Pilot and Copilot must be a name`)
+    }else if (
+      validateInput(fuelLevel) === `Not a number` ||
+      validateInput(cargoLevel) === `Not a number`
+    ) {
+        alert(`Fuel level and Cargo Mass must be a number`)
+    }
+
 }
 
 async function myFetch() {
