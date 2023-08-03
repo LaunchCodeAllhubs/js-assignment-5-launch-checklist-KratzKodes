@@ -32,7 +32,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
   let fuelStatus = document.getElementById("fuelStatus");
   let launchStatus = document.getElementById("launchStatus");
   let cargoStatus = document.getElementById("cargoStatus");
-  list.style.visibility = "hidden";
+  list.style.visibility = 'hidden';
 
   //validate all fields are filled out
   if (
