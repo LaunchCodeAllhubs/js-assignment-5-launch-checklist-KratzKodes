@@ -47,7 +47,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     validateInput(pilot) === `Is a Number` ||
     validateInput(copilot) === `Is a Number`
   ) {
-    alert(`Make  sure pilotName & copilotName are names`);
+    alert(`Make  sure Pilot & Copilot are names`);
   }
 
   //validate fuelLevel and cargoLevel are numbers
